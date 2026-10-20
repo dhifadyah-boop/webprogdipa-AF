@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(241, 167, 208);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: blueviolet;
+}
+
+.kartu-profile{
+    background-color: rgb(197, 168, 235);
+    padding: 30px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 19px 20px 15px 1px rgb(0 0 0 / 50%)
+}
+.kartu-profile h1{
+    color: rgb(245, 5, 193);
+    margin-bottom: 5px;
+}
+.kartu-profile p{
+    color: #000;
+    font-size: 14px;
+}
+.btn-detail{
+    background-color: rgb(178, 153, 238);
+    color: darkmagenta;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.btn-detail:hover{
+    background-color: darkolivegreen;
+}
+    
+#deskripsi{
+    color: rgb(48, 69, 255);
+}
